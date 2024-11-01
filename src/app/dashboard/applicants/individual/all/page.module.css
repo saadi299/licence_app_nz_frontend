@@ -1,0 +1,377 @@
+.table {
+  width: 95%;
+  margin: auto;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+}
+.main_table {
+  width: 95%;
+  overflow: hidden;
+  margin: auto;
+}
+.custom_table {
+  width: 100%;
+}
+.custom_table table {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* style for ctrl panel  */
+
+/* dropdown */
+
+.table .main_table > div > div:nth-child(1) > div {
+  padding: 25px 0px 10px 0px;
+  display: flex;
+  /* justify-content: end; */
+  justify-content: space-between;
+}
+.monthly_selection option {
+  font-size: 14px;
+  font-family: var(--font-dm-sans);
+  font-weight: 500;
+}
+
+table .main_table > div > div:nth-child(1) > div {
+  padding: 25px 0px 10px 0px;
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+}
+
+/* dropdown end  */
+
+.gift_selection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+/* table body style */
+
+.custom_table table thead tr {
+  height: 44px;
+}
+.custom_table table thead tr th {
+  background-color: #eaeaea;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+}
+.custom_table table thead tr th span button {
+  font-size: 13px;
+  padding: 0;
+  margin-left: -3px;
+  padding-left: 0 !important;
+}
+
+.custom_table tbody td {
+  font-size: 12px;
+  color: #323c47;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.custom_table tbody td:nth-child(1) {
+  background-color: #fff;
+  
+}
+
+
+/* .custom_table tbody td:nth-child(3) {
+
+  padding-left: 5px;
+}
+.custom_table tbody td:nth-child(3) div {
+  padding: 0px 17px;
+}
+
+
+.custom_table tbody td:nth-child(5) div > div {
+ 
+  padding: 5px;
+}
+
+
+
+
+
+.custom_table tbody td:nth-child(11) {
+  
+  font-size: 12px;
+  cursor: pointer;
+} */
+.action_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.delete_modal_container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.delete_modal_content{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.indeterminate,.attachemail{
+ 
+ height: 28px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: -2%;
+  color: #fff;
+  font-family: var(--font-dm-sans);
+  font-weight: 500;
+  padding: 0px 12px;
+}
+.indeterminate{
+  background: #004F6E;
+ 
+
+
+}
+.attachemail{
+
+  background: #AB4445;
+
+
+}
+
+@media (max-width: 1700px) {
+  .custom_table table {
+    min-width: 1350px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 1366px) {
+  .custom_table table {
+    min-width: 1250px;
+    max-width: 1250px;
+  }
+  .custom_table table thead tr th {
+    font-size: 12px;
+  }
+  .custom_table tbody td {
+    font-size: 11px;
+  }
+  .custom_table tbody td:nth-child(2) {
+    width: 120px;
+  }
+  .custom_table tbody td:nth-child(3),
+  .custom_table tbody td:nth-child(7) {
+    width: 130px;
+  }
+  .custom_table tbody td:nth-child(4),
+  .custom_table tbody td:nth-child(9) {
+    width: 140px;
+  }
+
+  .custom_table tbody td:nth-child(6) {
+    width: 200px;
+  }
+
+  .custom_table tbody td:nth-child(9) div,
+  .custom_table tbody td:nth-child(10) div {
+    padding: 0px 5px;
+  }
+
+
+  .custom_modal {
+    width: 450px;
+  }
+  .user_activity_timing {
+    width: 90%;
+  }
+  .modal_header h2 {
+    font-size: 18px;
+  }
+  .user_name {
+    font-size: 24px;
+  }
+  .user_address {
+    font-size: 15px;
+  }
+  .user_activity p:nth-child(1) {
+    font-size: 12px;
+  }
+  .user_activity p:nth-child(2) {
+    font-size: 12px;
+  }
+}
+@media (max-width: 820px) {
+  .custom_table table {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .custom_table tbody td:nth-child(1) {
+    width: 10%;
+  }
+  .custom_table table thead tr th span button {
+    font-size: 11px;
+  }
+  .custom_table tbody td:not(:first-child) {
+    width: 45%;
+    text-align: left;
+    height: 45px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 9px;
+  }
+  .custom_table tbody td:nth-child(5) div > div {
+    width: 110px;
+    text-align: center;
+  }
+  .custom_table tbody td:nth-child(10) div {
+    padding: 0px 0px;
+  }
+  .custom_table tbody td div {
+    font-size: 12px;
+  }
+  .action_icon {
+    width: 110px;
+    padding: 5px;
+  }
+}
+@media (max-width: 575px) {
+  .custom_table tbody td:nth-child(1) {
+    width: 10%;
+  }
+  .custom_table tbody td:not(:first-child) {
+    /* max-width: 100%; */
+    min-width: 100%;
+    text-align: left;
+    height: 45px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .custom_table tbody td:nth-child(3) div {
+    padding: 0px 0px;
+  }
+  .custom_table tbody td:nth-child(6) div {
+    width: 100%;
+  }
+  .dropdown_month_select_section {
+    top: 100px;
+    right: 20px;
+    font-size: 13px;
+  }
+  .dropdown_item {
+    padding: 5px 0px;
+  }
+
+  .custom_modal {
+    width: 420px;
+  }
+  .user_name {
+    font-size: 20px;
+    padding: 5px 0px;
+  }
+  .gift_selection{
+    margin-right: 15px;
+    flex-direction: column;
+  }
+  
+}
+@media (max-width: 414px) {
+  .custom_modal {
+    width: 390px;
+  }
+  .user_name {
+    font-size: 18px;
+  }
+  .user_address {
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .close_button {
+    padding-top: 3px;
+  }
+}
+@media (max-width: 375px) {
+  .custom_modal {
+    width: 360px;
+  }
+  .custom_table tbody td:nth-child(3) div {
+    padding: 0px 0px;
+  }
+  .custom_table tbody td:nth-child(9) div {
+    padding: 0px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .table .main_table > div > div:nth-child(1) > div {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 0px 20px 15px 25px;
+  }
+  .dropdown_month {
+    padding: 8px 5px;
+  }
+
+  .custom_modal {
+    width: 300px;
+  }
+  .modal_content {
+    display: flex !important;
+ 
+    padding: 14px 0px 0px 0px !important;
+  }
+  .modal_header {
+    display: flex !important;
+    padding: 12px 0px 0px 0px !important;
+  }
+  .close_button {
+    padding-right: 0px;
+  }
+  .gift_selection{
+    display: flex !important;
+    /* flex-direction: column !important; */
+  }
+}

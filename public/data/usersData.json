@@ -1,0 +1,210 @@
+[
+    {
+      "id": "2",
+      "name": "Alex Alice",
+      "preferredName":"Alex",
+      "licence": "Agent",
+      "status": "Archived",
+      "street": "1 No. Road, Dewan Bazar",
+      "suburb": "Didar Market",
+      "city": "Chattogram",
+      "postCode": "4001",
+      "date_first_listed_on_website": "27-03-2024"
+    },
+    {
+      "id": "4",
+      "name": "Blex Blice",
+      "preferredName":"Blex",
+     
+      "licence": "Sales Person",
+      "status": "Unprocessed",
+      "street": "2 No. Road,Dewan Bazar",
+      "suburb": "Cidar Market",
+      "city": "Rangamati",
+      "postCode": "4003",
+      "date_first_listed_on_website": "29-04-2023"
+    },
+    {
+      "id": "6",
+      "name": "Clex Clice",
+      "preferredName":"Clex",
+     
+      "licence": "Sales Person",
+      "status": "Send 1",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-05-2023"
+    },
+    {
+      "id": "8",
+      "name": "Alex Alice",
+      "preferredName":"Alex",
+     
+      "licence": "Agent",
+      "status": "Send 2",
+      "street": "1 No. Road,Dewan Bazar",
+      "suburb": "Didar Market",
+      "city": "Chattogram",
+      "postCode": "4001",
+      "date_first_listed_on_website": "27-01-2024"
+    },
+    {
+      "id": "10",
+      "name": "Blex Blice",
+      "preferredName":"Blex",
+     
+      "licence": "Sales Person",
+      "status": "Unprocessed",
+      "street": "2 No. Road,Dewan Bazar",
+      "suburb": "Cidar Market",
+      "city": "Rangamati",
+      "postCode": "4003",
+      "date_first_listed_on_website": "29-02-2020"
+    },
+    {
+      "id": "12",
+      "name": "Clex Clice",
+      "preferredName":"Clex",
+     
+      "licence": "Sales Person",
+      "status": "Send 2",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-03-2023"
+    },
+    {
+      "id": "14",
+      "name": "Alex Alice",
+      "preferredName":"Alex",
+    
+      "licence": "Agent",
+      "status": "Archived",
+      "street": "1 No. Road,Dewan Bazar",
+      "suburb": "Didar Market",
+      "city": "Chattogram",
+      "postCode": "4001",
+      "date_first_listed_on_website": "27-06-2024"
+    },
+    {
+      "id": "16",
+      "name": "Blex Blice",
+      "preferredName":"Blex",
+     
+      "licence": "Sales Person",
+      "status": "Unprocessed",
+      "street": "2 No. Road,Dewan Bazar",
+      "suburb": "Cidar Market",
+      "city": "Rangamati",
+      "postCode": "4003",
+      "date_first_listed_on_website": "29-07-2023"
+    },
+    {
+      "id": "18",
+      "name": "Clex Clice",
+      "preferredName":"Clex",
+     
+      "licence": "Sales Person",
+      "status": "Send 1",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "20",
+      "name": "Dlex Clice",
+      "preferredName":"Dlex",
+     
+      "licence": "Sales Person",
+      "status": "Send 2",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "18",
+      "name": "Clex Clice",
+      "preferredName":"Clex",
+     
+      "licence": "Sales Person",
+      "status": "Send 1",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "20",
+      "name": "Dlex Clice",
+      "preferredName":"Dlex",
+     
+      "licence": "Sales Person",
+      "status": "Send 2",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "22",
+      "name": "Clex Clice",
+      "preferredName": "Clex",
+  
+      "licence": "Sales Person",
+      "status": "Send 1",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "24",
+      "name": "Dlex Clice",
+      "preferredName": "Dlex",
+  
+      "licence": "Sales Person",
+      "status": "Send 2",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "26",
+      "name": "Clex Clice",
+      "preferredName": "Clex",
+  
+      "licence": "Sales Person",
+      "status": "Send 1",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    },
+    {
+      "id": "28",
+      "name": "Dlex Clice",
+      "preferredName": "Dlex",
+  
+      "licence": "Sales Person",
+      "status": "Send 2",
+      "street": "3 No. Road,Dewan Bazar",
+      "suburb": "Bidar Market",
+      "city": "Pabna",
+      "postCode": "4004",
+      "date_first_listed_on_website": "30-09-2023"
+    }
+  ]
+  

@@ -1,0 +1,143 @@
+.layout_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #fff #f0f0f0;
+}
+.layout_container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.layout_container::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.main_section {
+  flex-grow: 1;
+  width: 80%;
+  transition: all 0.5s linear;
+  margin-left: 20%;
+}
+
+.expanded_main_section {
+  width: 100%;
+  margin-left: 0%;
+  transition: width 0.4s linear;
+}
+
+.navbar_section {
+  position: fixed;
+  width: 80%;
+  z-index: 999;
+  top: 0;
+  transition: width 0.5s linear;
+}
+
+.navbar_section.collapsed_sidebar {
+  width: 100%;
+  transition: width 0.2s ease-in;
+}
+
+.navbar_toggle {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.sidebar {
+  width: 20%;
+  position: fixed;
+  z-index: 999999;
+  margin-left: 0%;
+  transition: width 0.4s linear;
+}
+.sidebar.collapsed_sidebar {
+  width: 0%;
+  transition: width 1s linear, margin-left 1s linear;
+  margin-left: -100%;
+}
+.table_dashboard_container {
+  margin-top: 100px;
+}
+/* mobile navbar code  */
+.sidebar_mobile {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  display: none;
+  z-index: 9999;
+}
+
+.sidebar_mobile_container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 9999999;
+  transition: left 0.5s ease;
+}
+.sidebar_mobile_container.open_mobile_sidebar {
+  left: 0;
+}
+
+@media (max-width: 1200px) {
+  .main_section {
+    flex-grow: 1;
+    width: 75%;
+    margin-left: 25%;
+  }
+
+  .expanded_main_section {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .navbar_section {
+    position: fixed;
+    width: 75%;
+    z-index: 999;
+    top: 0;
+  }
+
+  .navbar_section.collapsed_sidebar {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 25%;
+    position: fixed;
+    z-index: 999999;
+    margin-left: 0%;
+  }
+  .sidebar.collapsed_sidebar {
+    width: 0%;
+    margin-left: -100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar_toggle {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+  .main_section {
+    width: 100%;
+    margin-left: 0;
+  }
+  .sidebar_mobile {
+    display: flex;
+  }
+  .navbar_section {
+    width: 100%;
+  }
+}

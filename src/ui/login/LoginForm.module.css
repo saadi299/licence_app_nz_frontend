@@ -1,0 +1,42 @@
+.form-field {
+    /* margin-bottom: 15px; */
+  }
+  
+  .MuiFormHelperText-root {
+    margin-left: 0;
+  }
+  
+  .text-after-submit {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1b1c21;
+  }
+  
+  .bold-text {
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .forget-password-text {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1b1c21;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 481px) {
+    .text-after-submit {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .text-after-submit {
+      font-size: 10px;
+    }
+  }
+  
